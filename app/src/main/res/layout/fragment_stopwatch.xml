@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".presentation.fragments.StopwatchFragment">
+
+    <TextView
+        android:id="@+id/tv_sw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/time"
+        android:textColor="@color/white"
+        android:textSize="44sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="46dp"
+        android:backgroundTint="#86D50000"
+        android:padding="16dp"
+        android:text="@string/start"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#86D50000"
+        android:padding="16dp"
+        android:textColor="@color/white"
+        android:text="@string/stop"
+        android:textSize="18sp" />
+
+</LinearLayout>
